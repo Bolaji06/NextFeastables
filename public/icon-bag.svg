@@ -1,0 +1,5 @@
+
+<svg className="icon icon--bag group w-10 h-10 fill-[#000000]" aria-hidden="true">
+  <use xlink:href="#bag" className="w-10 h-10 fill-[#000000] group:fill-inherit group:stroke-inherit">
+  </use>
+</svg>

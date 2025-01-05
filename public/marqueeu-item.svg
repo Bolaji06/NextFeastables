@@ -1,0 +1,18 @@
+<svg class="h-[var(--height-mobile)] md:h-[var(--height)] w-auto max-w-none" fill="none" viewBox="0 0 400 64" xmlns="http://www.w3.org/2000/svg" x-data="{ id: $id('svg-mask') }">
+  <g>
+    <mask :id="id" id="svg-mask-25" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="64">
+      <rect id="Rectangle 601" width="400" height="64" fill="#D9D9D9"></rect>
+    </mask>
+    <g :mask="`url(#${id})`" mask="url(#svg-mask-25)">
+      <text class="fill-[var(--text-fill)] stroke-[color:var(--stroke-outer-color)] stroke-[length:var(--stroke-outer-size)]" fill="#F2EBE0" stroke="#492426" stroke-width="9" xml:space="preserve" style="white-space: pre" font-family="Kanit" font-size="68.0783" font-style="italic" font-weight="900" letter-spacing="0em"><tspan x="13.0977" y="54.379">7-ELEVEN</tspan></text>
+      <text class="fill-[var(--text-fill)] stroke-[length:var(--stroke-gradient-size)]" fill="#F2EBE0" :stroke="`url(#${id}-gradient)`" stroke-width="6" aria-hidden="true" xml:space="preserve" style="white-space: pre" font-family="Kanit" font-size="68.0783" font-style="italic" font-weight="900" letter-spacing="0em" stroke="url(#svg-mask-25-gradient)"><tspan x="13.0977" y="54.379">7-ELEVEN </tspan></text>
+      <text class="fill-[var(--text-fill)] stroke-[color:var(--stroke-inner-color)] stroke-[length:var(--stroke-inner-size)]" fill="#F2EBE0" stroke="#492426" stroke-width="2" aria-hidden="true" xml:space="preserve" style="white-space: pre" font-family="Kanit" font-size="68.0783" font-style="italic" font-weight="900" letter-spacing="0em"><tspan x="13.0977" y="54.379">7-ELEVEN </tspan></text>
+    </g>
+  </g>
+  <defs>
+    <linearGradient :id="`${id}-gradient`" x1="328.856" y1="-22.696" x2="328.403" y2="45.5082" gradientUnits="userSpaceOnUse" id="svg-mask-25-gradient">
+      <stop class="stop-color-[var(--stop-color-1)]" stop-color="#FF9125"></stop>
+      <stop class="stop-color-[var(--stop-color-2)]" offset="1" stop-color="#FF4347"></stop>
+    </linearGradient>
+  </defs>
+</svg>
